@@ -3,9 +3,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        example ad = new interfaceexample();
+        interfaceex1 ad = new example();
         ad.show();
-         System.out.println(ad.a3);
+        System.out.println(ad.a3);
+        anothermethod v = new example();
+        v.build();
+
 
          System.out.println("This is abstract code");
          abstractex a1 = new abstractmethod();

@@ -2,6 +2,7 @@ abstract class abstractex {
     protected int a = 20;
     abstract void display();
     void function(){
+
         System.out.println("this is non abstract method");
     }
 }
